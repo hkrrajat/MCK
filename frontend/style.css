@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fdf8ef;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    background:#002b36;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#f4c95d;
+}
+
+.logo span{
+    color:white;
+    font-size:18px;
+    display:block;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#f4c95d;
+}
+
+/* Hero */
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,.5),
+    rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.4rem;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#f4c95d;
+    color:#002b36;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:30px;
+    margin:10px;
+}
+
+.btn:hover{
+    background:white;
+}
+
+/* Section */
+
+section{
+    padding:70px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:40px;
+    color:#002b36;
+}
+
+/* Menu */
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.price{
+    color:#008060;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Features */
+
+.features{
+    background:#002b36;
+    color:white;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.feature-box{
+    padding:20px;
+}
+
+.feature-box h3{
+    color:#f4c95d;
+    margin-bottom:10px;
+}
+
+/* Testimonials */
+
+.testimonial{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+/* Contact */
+
+.contact{
+    background:#f4c95d;
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+/* Footer */
+
+footer{
+    background:#002b36;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* WhatsApp Button */
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
